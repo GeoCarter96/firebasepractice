@@ -50,7 +50,7 @@ async function getPostById(id) {
 const postRef = doc(db, "posts", id);
 const postSnap = await getDoc(postRef)
 return postSnap.data()
-console.log(post)
+
 }//how to recieve a single document
 
 async function getPostByUid() {
